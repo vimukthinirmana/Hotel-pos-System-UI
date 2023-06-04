@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="725.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFormController">
+   <children>
+      <Label layoutX="261.0" prefHeight="53.0" prefWidth="231.0" text="Delete Room">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="89.0" prefHeight="40.0" prefWidth="169.0" text="Room ID" textFill="#036bf2">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="134.0" prefHeight="40.0" prefWidth="169.0" text="Room Type" textFill="#036bf2">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="165.0" layoutY="93.0" prefHeight="33.0" prefWidth="272.0" promptText="pleass enter room ID" />
+      <Button layoutX="165.0" layoutY="207.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" text="Delete">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="354.0" layoutY="207.0" mnemonicParsing="false" onAction="#deleteRoomBackOnAction" prefHeight="33.0" prefWidth="83.0" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="250.0" fitWidth="272.0" layoutX="502.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/8.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="229.0" fitWidth="249.0" layoutX="502.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/25.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="165.0" layoutY="138.0" prefHeight="33.0" prefWidth="272.0" />
+   </children>
+</AnchorPane>

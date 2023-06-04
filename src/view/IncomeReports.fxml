@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="725.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFormController">
+   <children>
+      <Label layoutX="237.0" layoutY="14.0" prefHeight="59.0" prefWidth="252.0" text="Income Reports">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="242.0" layoutY="258.0" mnemonicParsing="false" onAction="#incomeReportBackBtnOnAction" prefHeight="33.0" prefWidth="82.0" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="22.0" layoutY="118.0" mnemonicParsing="false" onAction="#viewMonthlyOnAction" prefHeight="46.0" prefWidth="302.0" text="View Monthly" textFill="#703ddb">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="22.0" layoutY="181.0" mnemonicParsing="false" onAction="#viewAnnuallyOnAction" prefHeight="46.0" prefWidth="302.0" text="View Annually" textFill="#703ddb">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="300.0" fitWidth="404.0" layoutX="324.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/34.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

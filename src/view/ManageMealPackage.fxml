@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="725.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFormController">
+   <children>
+      <Label layoutX="188.0" layoutY="14.0" prefHeight="59.0" prefWidth="347.0" text="Manage Meal Package">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="604.0" layoutY="327.0" mnemonicParsing="false" onAction="#manageMealPackageBackBtnOnAction" prefHeight="33.0" prefWidth="82.0" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="361.0" fitWidth="363.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/6.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="384.0" layoutY="121.0" mnemonicParsing="false" onAction="#addNewMealPackageOnAction" prefHeight="46.0" prefWidth="302.0" text="Add New Meal Package" textFill="#043361">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="384.0" layoutY="184.0" mnemonicParsing="false" onAction="#modifyMealPackageOnAction" prefHeight="46.0" prefWidth="302.0" text="Modify Meal Package" textFill="#043361">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="384.0" layoutY="243.0" mnemonicParsing="false" onAction="#deleteMealPackageOnAction" prefHeight="46.0" prefWidth="302.0" text="Delete Meal Package" textFill="#043361">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
